@@ -1,0 +1,159 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:Averia Sans Libre,Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+#title1{
+    font-size: 18px;
+    font-weight: 500;
+    background-color:rgb(209, 153, 153);
+    float: right;
+    text-align: center;
+    width: 100px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+
+}
+#title2{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    background-color:rgb(175, 60, 60);
+    float: right;
+    text-align: center;
+    width: 100px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+
+}
+#title3{
+    font-size: 18px;
+    font-weight: 500;
+    background-color:rgb(236, 185, 90);
+    float: right;
+    text-align: center;
+    width: 100px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+
+}
+ #section1 p{
+         
+    clear: both; 
+    padding: 10px;
+}
+ 
+
+ #section2 p{
+    clear: both; 
+    padding: 10px;
+}
+   
+ #section3 p{
+    clear: both; 
+    padding: 10px; 
+}
+
+@media (min-width:992px)
+    {
+    .css-4-lg>div{
+        float: left;
+        width: 32%;
+        height: 150px;
+        /* margin-left: 20px; */
+          
+        border: 1px solid;
+        margin-right: 1%;
+        background-color: gray;
+        
+
+    }
+    body{
+        margin-left: 1%;
+    }
+  
+     
+    }
+    @media (min-width:768px) and (max-width:991px){
+        body{
+            margin-left: 2%;
+        }
+ .css-6-md #section1 {
+
+    float: left;
+        width: 47%;
+        height: 150px;
+        /* margin-left: 20px; */
+          
+        border: 1px solid;
+        margin-right: 2%;
+        background-color: gray;
+ }
+ .css-6-md #section2{
+
+    float: left;
+        width: 47%;
+        height: 150px;
+        /* margin-left: 20px; */
+          
+        border: 1px solid;
+        margin-right: 2%;
+        background-color: gray;
+ }
+ .css-6-md #section3{
+
+    float: left;
+        width: 96%;
+        height: 150px;
+        margin-top: 2%;
+          
+        border: 1px solid;
+        margin-right: 2%;
+        background-color: gray;
+ }
+
+
+
+    }
+ 
+@media (max-width:767px){
+    body>div>div{
+        margin-top: 8px;
+    }
+    body{
+        margin-left: 4%;
+    }
+    .css-12-xs #section1 {
+
+            width: 92%;
+            height: 150px;
+            border: 1px solid;
+            margin-right: 4%;
+            background-color: gray;
+     }
+     .css-12-xs #section2{
+
+            width: 92%;
+            height: 150px;
+            border: 1px solid;
+            margin-right: 4%;
+            background-color: gray;
+     }
+     .css-12-xs #section3{
+    
+            width: 92%;
+            height: 150px;
+              
+            border: 1px solid;
+            margin-right: 4%;
+            background-color: gray;
+     }
+}    
